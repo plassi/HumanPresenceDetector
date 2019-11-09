@@ -4,7 +4,8 @@ Human Presence Detector
 
 1 Introduction
 
-    This project's goals are to connect Omron D6T-44L-06 sensor to Arduino and to train a classification algorithm on Arduino to detect human and possibly specific animals.
+    This project's goals are to connect Omron D6T-44L-06 sensor to Arduino and to train 
+    a classification algorithm on Arduino to detect human and possibly specific animals.
 
     [Omron D6T datasheet](https://omronfs.omron.com/en_US/ecb/products/pdf/en-d6t.pdf)
 
