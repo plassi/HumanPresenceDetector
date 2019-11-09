@@ -1,18 +1,15 @@
-***********************
-Human Presence Detector
-***********************
-
 1 Introduction
 
     This project's goals are to connect Omron D6T-44L-06 sensor to Arduino and to train 
     a classification algorithm on Arduino to detect human and possibly specific animals.
 
-    [Omron D6T datasheet](https://omronfs.omron.com/en_US/ecb/products/pdf/en-d6t.pdf)
+    Omron D6T datasheet https://omronfs.omron.com/en_US/ecb/products/pdf/en-d6t.pdf
 
 
 2 Record data of the sensor output
 
-    Record data with and without human presence with [SerialLogger.py](SerialLogger/SerialLogger.py)
+    Record data with and without human presence
+    Sample recording https://github.com/labazor/HumanPresenceDetector/blob/master/Python/SerialLogger/data/data.txt
 
 3 Visualize raw data
 
