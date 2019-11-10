@@ -1,32 +1,26 @@
 1 Introduction
 
     This project's goals are to connect Omron D6T-44L-06 sensor to Arduino and to train 
-    a classification algorithm on Arduino to detect human and possibly specific animals.
+    a classification algorithm on Arduino. Classificator classifies filtered sensor data 
+    to detect human and smaller mammal in the field of view of the thermal sensor.
 
     Omron D6T datasheet https://omronfs.omron.com/en_US/ecb/products/pdf/en-d6t.pdf
+    
+2 Arduino schematics & sketches
+
+    Arduino/Schematics/                     
+    Arduino/Sketches/                      
 
 
-2 Record data of the sensor output
+2 Data record
 
-    Record data with and without human presence
-    Sample recording https://github.com/labazor/HumanPresenceDetector/blob/master/Python/SerialLogger/data/data.txt
+    Python/SerialLogger/SerialLogger.py     Python3 source for logging serial data 
+                                            of Arduino wirh Omron D6T-44l-06 sensor.
+                                            
+    raw_data/                               Recorded samples
 
-3 Visualize raw data
+3 Data analysis
 
-4 Preprocess data
+    JupyterLab/notebook.ipynb               Data analysis results as a JupyterLab Notebook.
 
-4.1 Filtering data limit low/high
-
-4.2 Data normalization
-
-5 Select and classify the training data
-
-6 Create classification model
-
-6.1 Split to train & test
-
-6.2 Naive Bayes Gaussian classification
-
-7 Testing model accuracy
-
-8 C++ software for Arduino
+4 C++ software for Arduino
