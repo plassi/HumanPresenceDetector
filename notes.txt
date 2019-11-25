@@ -1,0 +1,14 @@
+Collect data with a second timer and notebook. Take notes on situation in room for training.
+
+Try 3 different ML models for the data.
+
+Create application with python to visualize real time data and apply machine learning model.
+
+Implement software with C++ for Arduino.
+
+https://github.com/emlearn/emlearn
+https://github.com/BayesWitnesses/m2cgen
+https://github.com/nok/sklearn-porter
+https://github.com/VISWESWARAN1998/sklearn
+
+https://learn.sparkfun.com/tutorials/graph-sensor-data-with-python-and-matplotlib/update-a-graph-in-real-time

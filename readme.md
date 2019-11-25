@@ -24,3 +24,4 @@
     JupyterLab/notebook.ipynb               Data analysis results as a JupyterLab Notebook.
 
 4 C++ software for Arduino
+    emlearn
